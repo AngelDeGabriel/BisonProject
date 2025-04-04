@@ -17,5 +17,7 @@ export default {
         },
     },
 
+    darkMode: 'class',  // Habilita el modo oscuro con la clase 'dark'
+
     plugins: [forms],
 };
