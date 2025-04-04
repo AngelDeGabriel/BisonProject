@@ -14,18 +14,62 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+   Route::get('/', function () {
+     return view('#');
+   });
 
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
+ 
+   
+
+
+// Route::get('/dashboard', function () {
+//   //Ejecución del middleware, antes de devolver o mostrar una vista
+//      return view('dashboard');
+//      //Tambien se puede ejecutar despues de devolverlo mostrar una vista
+//  })->middleware(['auth'])->name('dashboard');
+
+ Route::middleware('auth')->group(function () {
+   
+    Route::view('/dashboard', 'dashboard')->name('dashboard'); //está es la ruta de arriba comentada pero simplificada
+
+     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+   
+     
+   });
+
+ Route::get('/productos', function (){
+ return view ('productos');
+
+ })-> name('productos');
+
+ Route::get('/equipo', function (){
+  return view ('equipo');
+ 
+  })-> name('equipo');
+
+  Route::get('/nosotros', function (){
+    return view ('nosotros');
+   
+    })-> name('nosotros');
+
+    Route::get('/inicio', function (){
+      return view ('inicio');
+     
+      })-> name('inicio');
+  
+      
+
+      Route::get('/morecarac', function (){
+        return view ('morecarac');
+       
+        })-> name('morecarac');
+  
+
+  
+  
+  
 
 require __DIR__.'/auth.php';
