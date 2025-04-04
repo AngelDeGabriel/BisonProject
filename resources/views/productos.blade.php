@@ -58,5 +58,9 @@
         </button>
     </div>
 
-    
+
+    <div class="bg-black h-12"></div>
+    <div class="bg-black h-12"></div>
+
+    @include('components.footer')
 </x-app-layout>

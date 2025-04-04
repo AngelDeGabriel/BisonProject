@@ -76,6 +76,11 @@ use Illuminate\Support\Facades\Route;
             return view ('polites');
            
             })-> name('polites');
+
+            Route::get('/app', function (){
+              return view ('app');
+             
+              })-> name('app');
   
 
   

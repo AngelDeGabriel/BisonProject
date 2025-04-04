@@ -32,6 +32,9 @@
                     <x-nav-link :href="route('morecarac')" :active="request()->routeIs('morecarac')">
                         TECNOLOGÍA
                     </x-nav-link>
+                    <x-nav-link :href="route('app')" :active="request()->routeIs('app')">
+                        APP
+                    </x-nav-link>
 
                     <x-nav-link :href="route('polites')" :active="request()->routeIs('polites')">
                         PRIVACIDAD
