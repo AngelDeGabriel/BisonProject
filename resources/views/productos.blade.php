@@ -36,7 +36,7 @@
             @foreach (['carroiot.png', 'carro4.png', 'carro5.png', 'carro6.png', 'carrp7.png'] as $image)
                 <div class="flex-shrink-0 w-64 sm:w-80 md:w-96 transition-transform hover:scale-105">
                     <img class="object-cover object-center w-full h-64 sm:h-80 md:h-96 rounded-lg shadow-md"
-                        src="{{ asset('images/' . $image) }}" alt="Imagen de producto">
+                        src="{{ asset('images/carro.jpeg') }}" alt="Imagen de producto">
                 </div>
             @endforeach
         </div>

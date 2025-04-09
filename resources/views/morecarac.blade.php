@@ -12,7 +12,7 @@
         <article class="relative  rounded-lg shadow-sm transition hover:shadow-lg mx-auto max-w-xs">
           <img
             alt=""
-            src="{{ asset ('images/arduino2.png') }}"
+            src="{{ asset ('images/sensorr.jpg') }}"
             class="absolute inset-0 h-full w-full object-cover"
           />
           <div class="relative bg-gradient-to-t h-full from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
@@ -33,7 +33,7 @@
         <article class="relative overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg mx-auto max-w-xs">
           <img
             alt=""
-            src="{{ asset('images/esp32.png') }}"
+            src="{{ asset('images/arduino9.jpg') }}"
             class="absolute inset-0 h-full w-full object-cover"
           />
           <div class="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 h-full pt-32 sm:pt-48 lg:pt-64">
@@ -53,7 +53,7 @@
         <article class="relative overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg mx-auto max-w-xs">
           <img
             alt=""
-            src="{{ asset ('images/carro3.png') }}"
+            src="{{ asset ('images/carro.jpeg') }}"
             class="absolute inset-0 h-full w-full object-cover"
           />
           <div class="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
