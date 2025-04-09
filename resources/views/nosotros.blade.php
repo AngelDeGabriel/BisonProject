@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="font-bold text-4xl text-white dark:text-gray-200 leading-tight text-center">
+        <h2 class="font-bold text-4xl text-white bg-black dark:white leading-tight text-center">
           QUIENES SOMOS
         </h2>
     </x-slot>

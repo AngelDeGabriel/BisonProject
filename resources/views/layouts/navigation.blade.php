@@ -36,6 +36,10 @@
                         APP
                     </x-nav-link>
 
+                    <x-nav-link :href="route('posts.index')" :active="request()->routeIs('posts.index')">
+                        BLOG
+                    </x-nav-link>
+
                     <x-nav-link :href="route('polites')" :active="request()->routeIs('polites')">
                         PRIVACIDAD
                     </x-nav-link>
