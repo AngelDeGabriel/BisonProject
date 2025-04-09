@@ -25,7 +25,7 @@
       <div class="mt-10 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center">
         @foreach ([
             ['nombre' => 'Ángel', 'img' => 'perfil.jpg'],
-            ['nombre' => 'Emilio', 'img' => 'Emilio.jpeg'],
+            ['nombre' => 'Emilio', 'img' => 'emilio.jpeg'],
             ['nombre' => 'Josue', 'img' => 'topo.png'],
             ['nombre' => 'Baldo', 'img' => 'baldomero.jpeg']
         ] as $persona)

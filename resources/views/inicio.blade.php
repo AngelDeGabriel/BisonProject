@@ -2,7 +2,7 @@
   <!-- Imagen Inicio Carro -->
   <div class="grid gap-4 px-4">
       <div>
-          <img class="w-full h-auto rounded-lg max-w-screen-lg mx-auto" src="{{ asset('images/carro.jpeg') }}" alt="">
+          <img class="w-full h-auto rounded-lg max-w-screen-lg mx-auto" src="{{ asset('images/carrito.jpg') }}" alt="">
       </div>
   </div>
 
@@ -46,7 +46,7 @@
   <div class="flex flex-wrap justify-center gap-8 bg-black p-4 md:p-6">
       <!-- Tarjeta 1 -->
       <div class="w-full max-w-xs bg-white border border-white rounded-lg shadow-sm">
-          <img class="p-6 rounded-t-lg" src="{{ asset('images/carro3.png') }}" alt="product image" />
+          <img class="p-6 rounded-t-lg" src="{{ asset('images/carrito.jpg') }}" alt="product image" />
           <div class="px-4 pb-4">
               <h5 class="text-lg font-semibold tracking-tight text-gray-900">ACC - 001</h5>
               <div class="flex items-center mt-2.5 mb-3">
@@ -61,7 +61,7 @@
 
       <!-- Tarjeta 2 -->
       <div class="w-full max-w-xs bg-white border border-gray-200 rounded-lg shadow-sm">
-          <img class="p-6 rounded-t-lg" src="{{ asset('images/carro3.png') }}" alt="product image" />
+          <img class="p-6 rounded-t-lg" src="{{ asset('images/carritoprox.png') }}" alt="product image" />
           <div class="px-4 pb-4">
               <h5 class="text-lg font-semibold tracking-tight text-gray-900">ACC - 002</h5>
               <div class="flex items-center justify-between">
@@ -72,7 +72,7 @@
 
       <!-- Tarjeta 3 -->
       <div class="w-full max-w-xs bg-white border border-gray-200 rounded-lg shadow-sm">
-          <img class="p-6 rounded-t-lg" src="{{ asset('images/carro3.png') }}" alt="product image" />
+          <img class="p-6 rounded-t-lg" src="{{ asset('images/carritoprox.png') }}" alt="product image" />
           <div class="px-4 pb-4">
               <h5 class="text-lg font-semibold tracking-tight text-gray-900">ACC - 003</h5>
               <div class="flex items-center justify-between">
