@@ -124,31 +124,31 @@
                 PRODUCTOS
             </x-responsive-nav-link>
 
-            <x-responsive-nav-link :href="route('productos')" :active="request()->routeIs('equipo')">
+            <x-responsive-nav-link :href="route('equipo')" :active="request()->routeIs('equipo')">
                 EQUIPO
             </x-responsive-nav-link>
 
-            <x-responsive-nav-link :href="route('productos')" :active="request()->routeIs('nosotros')">
+            <x-responsive-nav-link :href="route('nosotros')" :active="request()->routeIs('nosotros')">
                 NOSOTROS
             </x-responsive-nav-link>
 
-            <x-responsive-nav-link :href="route('productos')" :active="request()->routeIs('morecarac')">
+            <x-responsive-nav-link :href="route('morecarac')" :active="request()->routeIs('morecarac')">
                 TECNOLOGÍA
             </x-responsive-nav-link>
 
-            <x-responsive-nav-link :href="route('productos')" :active="request()->routeIs('app')">
+            <x-responsive-nav-link :href="route('app')" :active="request()->routeIs('app')">
                 APP
             </x-responsive-nav-link>
 
-            <x-responsive-nav-link :href="route('productos')" :active="request()->routeIs('posts')">
+            <x-responsive-nav-link :href="route('posts')" :active="request()->routeIs('posts')">
                 BLOG
             </x-responsive-nav-link>
 
-            <x-responsive-nav-link :href="route('productos')" :active="request()->routeIs('polites')">
+            <x-responsive-nav-link :href="route('polites')" :active="request()->routeIs('polites')">
                 PRIVACIDAD
             </x-responsive-nav-link>
 
-            <x-responsive-nav-link :href="route('productos')" :active="request()->routeIs('Faqs')">
+            <x-responsive-nav-link :href="route('Faqs')" :active="request()->routeIs('Faqs')">
                 FAQ'S
             </x-responsive-nav-link>
         </div>
