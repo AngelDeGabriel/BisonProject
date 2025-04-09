@@ -140,7 +140,7 @@
                 APP
             </x-responsive-nav-link>
 
-            <x-responsive-nav-link :href="route('posts')" :active="request()->routeIs('posts')">
+            <x-responsive-nav-link :href="route('posts.index')" :active="request()->routeIs('posts.index')">
                 BLOG
             </x-responsive-nav-link>
 
