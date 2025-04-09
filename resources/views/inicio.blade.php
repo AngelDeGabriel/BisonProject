@@ -2,7 +2,7 @@
   <!-- Imagen Inicio Carro -->
   <div class="grid gap-4 px-4">
       <div>
-          <img class="w-full h-auto rounded-lg max-w-screen-lg mx-auto" src="{{ asset('images/carroinicio.PNG') }}" alt="">
+          <img class="w-full h-auto rounded-lg max-w-screen-lg mx-auto" src="{{ asset('images/carro.jpeg') }}" alt="">
       </div>
   </div>
 
@@ -29,7 +29,7 @@
 
   <!-- Imagen a la izquierda -->
   <div class="w-full md:w-1/2 flex items-center justify-center md:justify-end py-6 md:py-0">
-      <img class="w-4/5 md:w-auto h-64 md:h-full object-contain" src="{{ asset('images/arduino.png') }}" alt="Imagen grande">
+      <img class="w-4/5 md:w-auto h-64 md:h-full object-contain" src="{{ asset('images/arduino2.jpg') }}" alt="Imagen grande">
   </div>
 </div>
 
